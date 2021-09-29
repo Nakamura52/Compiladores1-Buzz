@@ -1,0 +1,8 @@
+start:
+    echo "Isto é um teste"
+    goto other_label
+    echo "Voltamos"
+    stop
+    echo "Isto não deveria aparecer"
+other_label:
+    echo "Em outra aba"
